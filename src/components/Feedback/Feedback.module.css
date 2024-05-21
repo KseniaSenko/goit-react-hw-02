@@ -1,0 +1,11 @@
+.feedback_list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 20px;
+}
+.feedback_item {
+  font-size: 20px;
+  font-weight: 200;
+}

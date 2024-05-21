@@ -1,0 +1,75 @@
+.btn_list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  padding: 10px 30px;
+  margin-top: 20px;
+  font-family: Lora;
+  text-decoration: none;
+  background-color: #c274bbdb;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.btn:hover {
+  /* filter: brightness(120%); */
+  border: 1px solid #557eae9c;
+  background-color: hsla(314, 75%, 57%, 0.2);
+  /* background-color: #557eae9c; */
+}
+.btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+/* CSS */
+/* .btn {
+  background-color: transparent;
+  border: 1px solid #266db6;
+  box-sizing: border-box;
+  color: #00132c;
+  font-family: "Avenir Next LT W01 Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover,
+.btn:active {
+  outline: 0;
+}
+
+.btn:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn:before {
+  background-color: #d5edf6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.btn:hover:before {
+  background-color: #6dcff6;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 16px 32px;
+  }
+} */
